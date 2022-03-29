@@ -3,9 +3,8 @@ import facebookIcon from '../images/facebook.svg'
 import instagramIcon from '../images/instagram.svg'
 import twitterIcon from '../images/twitter.svg'
 import youtubeIcon from '../images/youtube.svg'
-import { Link } from 'react-router-dom'
 
-function Footer({ Container, Row, Col, logo }) {
+function Footer({ Container, Row, Col, logo, Link }) {
     return (
         <>
             <Container fluid className='bg-primary my-footer'>
@@ -17,9 +16,9 @@ function Footer({ Container, Row, Col, logo }) {
                         </a>
                     </Col>
                     <Col xs={12} md={6} className='text-center d-flex align-items-center justify-content-center'>
-                        <a href="#" className='badge'>home</a>
-                        <a href="#" className='badge'>Pricing</a>
-                        <a href="#" className='badge'>About Us</a>
+                        <Link to="/" className='badge'>home</Link>
+                        <Link to="/pricing" className='badge'>Pricing</Link>
+                        <Link to="/about-us" className='badge'>About Us</Link>
                     </Col>
                 </Row>
                 <Row>
