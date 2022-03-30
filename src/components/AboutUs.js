@@ -27,7 +27,7 @@ function AboutUs({ Row, Col }) {
     })
     return (
         <div>
-            <Row className="g-4">
+            <Row className="g-3 pb-3">
                 {cards}
             </Row>
         </div>

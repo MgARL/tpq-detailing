@@ -9,7 +9,7 @@ function Information({ Row, Col, Button }) {
                 </Col>
             </Row>
             <Row className='pb-2'>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={6} className="mb-2">
                     <a className="btn btn-success" href="mailto:tpqdetailing@gmail.com"><h4>Email us</h4></a>
                 </Col>
                 <Col xs={12} md={6}>

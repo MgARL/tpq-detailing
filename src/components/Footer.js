@@ -7,13 +7,13 @@ import youtubeIcon from '../images/youtube.svg'
 function Footer({ Container, Row, Col, logo, Link }) {
     return (
         <>
-            <Container fluid className='bg-primary my-footer'>
+            <Container fluid className='bg-tpq my-footer'>
                 <Row>
                     <Col xs={12} md={6} className='d-flex justify-content-center'>
-                        <a href='#' className='navbar-brand text-light'>
+                        <Link to='/' className='navbar-brand text-light'>
                             <img src={logo} alt="TPQ Detailing Logo" width='50' height='50' className='d-inline-block align-text-center' />
                             TPQ AUTO Detailing
-                        </a>
+                        </Link>
                     </Col>
                     <Col xs={12} md={6} className='text-center d-flex align-items-center justify-content-center'>
                         <Link to="/" className='badge'>home</Link>

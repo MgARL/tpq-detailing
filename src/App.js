@@ -18,10 +18,10 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <>
+    <div className='App'>
       <Router>
         <MyNavbar logo={logo} Container={Container} Link={Link} />
-        <Container className="App bg-primary my-5 text-light">
+        <Container className="main-container bg-tpq my-5 text-light">
             <Routes>
               <Route path='/' element={[<Introduction key='intro'/>,  <Information Row={Row} Col={Col} Button={Button} key='info'/> ]}/>
               <Route path='/pricing' element={<Pricing />}/>
@@ -31,19 +31,8 @@ function App() {
         <Footer Container={Container} Row={Row} Col={Col} logo={logo} Link={Link} />
 
       </Router>
-    </>
+    </div>
   );
 }
 
 export default App;
-
-
-// / <>
-    //   <MyNavbar logo={logo} Container={Container} />
-    //   <Container className="App bg-primary my-5 text-light">
-    //     <Introduction />
-    //     <Information Row={Row} Col={Col} Button={Button} />
-    //   </Container>
-    //   <Footer Container={Container} Row={Row} Col={Col} logo={logo}/>
-
-    // </>

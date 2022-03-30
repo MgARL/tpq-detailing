@@ -6,9 +6,9 @@ import Nav from 'react-bootstrap/Nav'
 function MyNavbar({ logo, Container, Link }) {
   return (
     <>
-      <Navbar bg="primary" variant="dark">
+      <Navbar variant="dark" className='bg-tpq'>
         <Container fluid>
-          <Navbar.Brand href="#home"><img src={logo} width="40" height="40" className="d-inline-block align-top" alt="TPQ Detailing logo"/></Navbar.Brand>
+          <Navbar.Brand as={Link} to="/"><img src={logo} width="40" height="40" className="d-inline-block align-top" alt="TPQ Detailing logo"/></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link as={Link} to={'/'}>
               Home
