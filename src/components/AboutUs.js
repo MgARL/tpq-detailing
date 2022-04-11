@@ -20,14 +20,13 @@ function AboutUs({ Row, Col }) {
                     </Card.Text>
                 </Card.Body>
             </Card>
-
         </Col>
 
         )
     })
     return (
         <div>
-            <Row className="g-3 pb-3">
+            <Row  xs={1} sm={2} md={3} className="g-3 pb-3 d-flex justify-content-center">
                 {cards}
             </Row>
         </div>
