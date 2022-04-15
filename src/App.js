@@ -22,15 +22,17 @@ function App() {
     <div className='App'>
       <Router>
         <MyNavbar logo={logo} Container={Container} Link={Link} />
-        <Container className="main-container bg-tpq my-5 text-light">
-          <ScrollToTop>
-            <Routes>
-              <Route path='/' element={[<Introduction key='intro' />, <Information Row={Row} Col={Col} key='info' />]} />
-              <Route path='/pricing' element={<Pricing />} />
-              <Route path='/about-us' element={<AboutUs Row={Row} Col={Col} />} />
-            </Routes>
-          </ScrollToTop>
-        </Container>
+        <div className='footer-fill d-flex justify-content-center align-items-center'>
+          <Container className="main-container bg-tpq my-5 text-light">
+            <ScrollToTop>
+              <Routes>
+                <Route path='/' element={[<Introduction key='intro' />, <Information Row={Row} Col={Col} key='info' />]} />
+                <Route path='/pricing' element={<Pricing />} />
+                <Route path='/about-us' element={<AboutUs Row={Row} Col={Col} />} />
+              </Routes>
+            </ScrollToTop>
+          </Container>
+        </div>
         <Footer Container={Container} Row={Row} Col={Col} logo={logo} Link={Link} />
 
       </Router>
