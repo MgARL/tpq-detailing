@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
-import MiguelPic from '../images/MR.png'
 import ErikPic from '../images/ER.jpg'
 import TonyPic from '../images/TR.png'
 
