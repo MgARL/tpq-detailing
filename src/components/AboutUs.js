@@ -5,7 +5,7 @@ import ErikPic from '../images/ER.jpg'
 import TonyPic from '../images/TR.png'
 
 function AboutUs({ Row, Col }) {
-    const imagesArr = [ErikPic, TonyPic, MiguelPic ]
+    const imagesArr = [ErikPic, TonyPic]
     const titleArr = ['Erik Rodriguez', 'Juan Rodriguez']
     const textArr = ['Co-founder and head of Customer Service!','Co-founder and head of Human Resources!']
     let cards = imagesArr.map((img, i) => {
