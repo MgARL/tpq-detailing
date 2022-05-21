@@ -6,8 +6,8 @@ import TonyPic from '../images/TR.png'
 
 function AboutUs({ Row, Col }) {
     const imagesArr = [ErikPic, TonyPic, MiguelPic ]
-    const titleArr = ['Erik Rodriguez', 'Juan Rodriguez', 'Miguel Rodriguez']
-    const textArr = ['Co-founder and head of Customer Service!','Co-founder and head of Human Resources!', 'Co-founder and head of Marketing and Social Media Presence!']
+    const titleArr = ['Erik Rodriguez', 'Juan Rodriguez']
+    const textArr = ['Co-founder and head of Customer Service!','Co-founder and head of Human Resources!']
     let cards = imagesArr.map((img, i) => {
         return(
         <Col key={i} className='bg-card'>
