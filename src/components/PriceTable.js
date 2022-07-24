@@ -26,7 +26,7 @@ function PriceTable() {
             </Row>
             <Row>
                 <Col xs={12}>
-                    <p> Frequency: Twice per month (Additional frequency can be change for additional charge).</p>
+                    <p> Frequency: Once per month (Additional frequency can be change for additional charge).</p>
                     <p>NOTE: We offer to you <span className='color-green'>WORK</span> or <span className='color-green'>HOME</span> location <span className='color-green'>ONLY</span>😊</p>
                 </Col>
             </Row>
