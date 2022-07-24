@@ -8,7 +8,7 @@ function CallToAction({Row, Col}) {
                     <a className="btn btn-success" href="mailto:contact@tpqdetailing.com"><h4>Email us</h4></a>
                 </Col>
                 <Col xs={12} md={6}>
-                    <a className="btn btn-success" href="tel:9848336751" ><h4>Call us</h4></a>
+                    <a className="btn btn-success" href="tel:9193076251" ><h4>Call us</h4></a>
                 </Col>
             </Row>
         </>
