@@ -9,7 +9,7 @@ function MyNavbar({ logo, Container, Link }) {
       <Navbar variant="dark" sticky='top' className='bg-tpq' expand='md'>
         <Container fluid>
           <Navbar.Brand as={Link} to="/" className='d-flex align-items-center'>
-            <img src={logo} width="40" height="40" className="d-inline-block" alt="TPQ Detailing logo" />
+            <img src={logo} width="40" height="40" className="d-inline-block logo" alt="TPQ Detailing logo" />
             <span className='ms-2'>TPQ Auto Detailing</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

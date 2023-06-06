@@ -28,3 +28,7 @@ a:-webkit-any-link {
 .color-red{
   color: rgb(255, 234, 0);
 }
+
+.logo{
+  border-radius: 50%;
+}
