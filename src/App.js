@@ -1,5 +1,5 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/flatly.min.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import logo from './tpq-logo.png'
 import Container from 'react-bootstrap/Container'
@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col'
 import MyNavbar from './components/MyNavbar'
 import Introduction from './components/Introduction'
 import Information from './components/Information'
-import Pricing from './components/Pricing'
+import Pricing from './components/Pricing/Pricing'
 import AboutUs from './components/AboutUs'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop';
