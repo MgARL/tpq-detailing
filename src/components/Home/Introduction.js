@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Introduction({ Container }) {
+function Introduction() {
     return (
         <>
             <h1>Tomier Plus Quality Mobile Detailing</h1>

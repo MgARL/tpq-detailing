@@ -1,7 +1,8 @@
 import React from 'react'
 import CallToAction from './CallToAction'
+import { Row, Col } from 'react-bootstrap';
 
-function Information({ Row, Col}) {
+function Information() {
     return (
         <>
             <Row className="mt-5">
