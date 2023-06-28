@@ -7,7 +7,7 @@ import youtubeIcon from '../images/youtube.svg'
 function Footer({ Container, Row, Col, logo, Link }) {
     return (
         <>
-            <Container fluid className='bg-tpq my-footer'>
+            <Container fluid className='bg-tpq my-footer pt-3'>
                 <Container>
                     <Row>
                         <Col xs={12} md={6} className='d-flex justify-content-start'>

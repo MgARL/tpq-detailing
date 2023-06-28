@@ -115,4 +115,25 @@ const services = [
 	},
 ];
 
+const petHairRem = {
+	serviceName: 'Pet Hair Removal',
+	medium: '$30',
+	heavy: '$60'
+};
+
+const packagePricing = {
+	pName: 'Price',
+	packages: [{
+		sedan: '$60',
+		nonSedan: '$70'
+	},{
+		sedan: '$149',
+		nonSedan: '$169'
+	},{
+		sedan: '$189',
+		nonSedan: '$210',
+	}],
+};
+
 export default services;
+export {petHairRem, packagePricing};

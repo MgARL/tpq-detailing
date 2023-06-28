@@ -1,9 +1,14 @@
 import React from 'react'
+
+//comps
 import { Table } from 'react-bootstrap'
-import services from './data'
 import { IoIosCheckmarkCircle } from "react-icons/io";
 
+//data
+import services, {petHairRem, packagePricing} from './data';
+
 function PricingTable() {
+    const petHairArr = [1,2,3];
   return (
     <Table striped hover responsive='md' variant='info' className='fit-parent'>
         <thead>
@@ -48,6 +53,29 @@ function PricingTable() {
                     </tr>
                 )
             })}
+            <tr>
+                <td className='text-center pt-4'>{petHairRem.serviceName}</td>
+                {petHairArr.map(n => (
+                    <td key={n}>
+                        AddOn:
+                        <br/>
+                        Medium: {petHairRem.medium}
+                        <br/>
+                        Heavy: {petHairRem.heavy}
+                    </td>
+                ))}
+            </tr>
+            <tr>
+                <td className='text-center pt-3'>{packagePricing.pName}</td>
+                {packagePricing.packages
+                    .map((p, i) => (
+                        <td key={i}>
+                            Sedan: {p.sedan}
+                            <br/>
+                            Non-Sedan: {p.nonSedan}
+                        </td>
+                    ))}
+            </tr>
         </tbody>
     </Table>
   )
