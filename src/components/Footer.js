@@ -10,13 +10,13 @@ function Footer({ Container, Row, Col, logo, Link }) {
             <Container fluid className='bg-tpq my-footer pt-3'>
                 <Container>
                     <Row>
-                        <Col xs={12} md={6} className='d-flex justify-content-start'>
+                        <Col xs={12} md={6} className='d-md-flex justify-content-start text-center'>
                             <Link to='/' className='navbar-brand text-light'>
                                 <img src={logo} alt="TPQ Detailing Logo" width='50' height='50' className='d-inline-block align-text-center logo' />
                                 TPQ AUTO Detailing
                             </Link>
                         </Col>
-                        <Col xs={12} md={6} className='text-center d-flex align-items-center justify-content-end'>
+                        <Col xs={12} md={6} className='text-center d-md-flex align-items-center justify-content-end'>
                             <Link to="/" className='badge'>home</Link>
                             <Link to="/pricing" className='badge'>Pricing</Link>
                             <Link to="/about-us" className='badge'>About Us</Link>
@@ -39,13 +39,13 @@ function Footer({ Container, Row, Col, logo, Link }) {
                         </Col>
                     </Row>
                     <Row className="pb-4">
-                        <Col xs={12} md={4} className='d-flex justify-content-start'>
+                        <Col xs={12} md={4} className='text-center d-md-flex justify-content-start'>
                             <a href="https://www.linkedin.com/in/miguel-rodriguez-25371021b/"  target='_blank' rel="noreferrer" className="badge badge-secondary">Created by: Miguel R.</a>
                         </Col>
-                        <Col xs={12} md={4} className='d-flex justify-content-center'>
+                        <Col xs={12} md={4} className='text-center d-md-flex justify-content-center'>
                             <a href="https://www.freepik.com/"  target='_blank' rel="noreferrer" className="badge badge-secondary">Icons from: Freepik</a>
                         </Col>
-                        <Col xs={12} md={4} className='d-flex justify-content-end'>
+                        <Col xs={12} md={4} className='text-center d-md-flex justify-content-end'>
                             <a href="https://unsplash.com/@dascal"  target='_blank' rel="noreferrer" className="badge badge-secondary">backrogund from: unsplash</a>
                         </Col>
                     </Row>

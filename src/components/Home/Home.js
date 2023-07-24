@@ -4,7 +4,7 @@ import Introduction from './Introduction';
 
 function Home() {
   return (
-    <div className='bg-tpq pt-3'>
+    <div className='bg-tpq p-3'>
         <Introduction/>
         <Information/>
     </div>

@@ -16,7 +16,7 @@
 }
 
 .bg-tpq{
-  background-color: rgb(16, 114, 160, 0.8);
+  background-color: rgb(16, 114, 160, 0.8) !important;
 }
 
 a:-webkit-any-link {
