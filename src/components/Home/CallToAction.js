@@ -9,7 +9,7 @@ function CallToAction() {
                     <a className="btn btn-success" href="mailto:contact@tpqdetailing.com"><h5 className='mt-1'>Email Us</h5></a>
                 </Col>
                 <Col xs={12} md={6}>
-                    <a className="btn btn-success" href="tel:9193076251" ><h5 className='mt-1'>Call Us</h5></a>
+                    <a className="btn btn-success" href="tel:9195616336" ><h5 className='mt-1'>Call Us</h5></a>
                 </Col>
             </Row>
         </>
